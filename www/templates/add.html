@@ -1,0 +1,55 @@
+<ion-view view-title="Events">
+  	<ion-content>
+		<div class="list">
+		   	<label class="item item-input">
+		   		<input type="text" ng-model="formData.eventName" placeholder="Event Name">
+			</label>
+
+			<label class="item item-input">
+		   		<input type="text" ng-model="formData.category" placeholder="Category">
+			</label>
+
+			<label class="item item-input">
+		   		<input type="text" ng-model="formData.name" placeholder="Name">
+			</label>
+
+		   	<label class="item item-input">
+		   		<input type="text" ng-model="formData.date" placeholder="Date">
+		   	</label>
+
+		   	<label class="item item-input">
+		   		<input type="text" ng-model="formData.time" placeholder="Time">
+		   	</label>
+
+		   	<label class="item item-input">
+		   	<input type="text" ng-model="formData.houseNumber" placeholder="House Number">
+		   	</label>
+
+		   	<label class="item item-input">
+		   		<input type="text" ng-model="formData.street" placeholder="Street">
+		   	</label>
+
+		   	<label class="item item-input">
+		   		<input type="text" ng-model="formData.number" placeholder="Phone Number">
+		   	</label>
+
+		   	<label class="item item-input">
+		   		<input type="text" ng-model="formData.postalCode" placeholder="Postal Code">
+		   	</label>
+
+		   	<label class="item item-input">
+		   		<input type="text" ng-model="formData.city" placeholder="City">
+		   	</label>
+
+		   	<label class="item item-input">
+		   		<input type="text" ng-model="formData.email" placeholder="Email">
+		   	</label>
+		   	<label class="item item-input">
+		   		<input type="text" ng-model="formData.repeat" placeholder="Repeat?">
+		   	</label>
+		   	 <button class="button" on-tap="saveEvent()">
+	        	Add
+	      	</button>
+		</div>
+	</ion-content>
+</ion-view>

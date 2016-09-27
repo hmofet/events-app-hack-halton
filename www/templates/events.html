@@ -1,0 +1,17 @@
+<ion-view view-title="Events">
+  <ion-content>
+  	<ion-header-bar>
+  		<a class="button" href="#/add">
+        Add Event
+      	</a>
+      	</ion-header-bar>	
+       <a href="#/details"><ion-radio ng-repeat="item in eventList" 
+                   ng-value="item.value"
+                   ng-model="data.serverSide"
+                   on-tap="eventChange(item)"
+                   name="server-side">
+          			{{ item.text }}
+        </ion-radio>
+        </ion-content>
+    </ion-list>
+</ion-view>

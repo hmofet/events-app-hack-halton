@@ -1,0 +1,11 @@
+<ion-view view-title="Choose">
+  <ion-content>
+       <ion-radio ng-repeat="item in serverSideList"
+                   ng-value="item.value"
+                   ng-model="data.serverSide"
+                   on-tap="serverSideChange(item)"
+                   name="server-side">
+          {{ item.text }}
+        </ion-radio>
+    <a class="button" href="#/eventtype" on-tap="getCity()">Go!</a>
+</ion-view>
